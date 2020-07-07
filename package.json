@@ -32,10 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sushilburagute/200iq-advice.git"
-  },
-  "homepage": "https://github.com/sushilburagute/200iq-advice"
+  }
 }
