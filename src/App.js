@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import axios from "axios";
 import "./App.css";
+
+import ReactGa from "react-ga";
 
 class App extends React.Component {
   state = { advice: "" };
