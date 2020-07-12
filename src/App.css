@@ -7,6 +7,8 @@ body {
   box-sizing: border-box;
 }
 
+/* Background Render */
+
 .app {
   height: 100%;
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)),
@@ -19,6 +21,7 @@ body {
   text-align: center;
 }
 
+/* Card styling */
 .card {
   background-color: #f4f4f4;
   width: 45%;
@@ -39,7 +42,7 @@ body {
   height: 500px;
   font-family: "Spartan", sans-serif;
 }
-
+/* button style */
 .button {
   position: relative;
   outline: none;
@@ -63,6 +66,8 @@ body {
   font-weight: 500;
   letter-spacing: 0.7px;
 }
+
+/* Animation for the button */
 
 .button:hover {
   animation: rotate 0.7s ease-in-out both;

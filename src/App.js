@@ -5,12 +5,13 @@ import "./App.css";
 class App extends React.Component {
   state = { advice: "" };
 
+  // get the inital advice when the page loads
   componentDidMount() {
     console.log("Hey! I've got the initial advise!");
     this.fetchAdvice();
   }
 
-  //method
+  //method to all the API when the button is clicked
   fetchAdvice = () => {
     axios
       .get("https://api.adviceslip.com/advice")
